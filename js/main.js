@@ -1,3 +1,19 @@
+$(document).ready(function() {
+    $('#videoGallery').lightSlider({
+      gallery:true,
+      adaptiveHeight:true,
+      item:1,
+      loop:true,
+      vThumbWidth:50,
+      thumbItem:8,
+      thumbMargin:4,
+      slideMargin:0,
+      onSliderLoad: function() {
+        $('#videoGallery').removeClass('cS-hidden');
+    }
+    });
+  });
+
 ; (function () {
 
     'use strict';
