@@ -386,3 +386,37 @@
    min-width: 100%;
    min-height: 100%;*/
  }
+
+ .parallax1, .parallax2, .parallax3 {
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .parallax1 {
+  /* The image used */
+  background-image: url("../images/parallax-bg1.jpeg");
+
+  /* Set a specific height */
+  height: 300px;
+  
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../images/parallax-bg2.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("../images/parallax-bg3.jpeg");
+
+  /* Set a specific height */
+  height: 800px;
+}
+
