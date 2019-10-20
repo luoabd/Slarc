@@ -1,1 +1,6 @@
-I've got an idea. How about adding a statistics page show various stuff with graphs and graphics. That would look fancy. 
+Sticky header navigation bar which is not transparent and more professional looking
+
+'Go Up' floating button
+
+Each page's subject at the place where carousel now exists 
+
