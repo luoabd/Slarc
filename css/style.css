@@ -424,3 +424,20 @@
   height: 800px;
 }
 
+.containerImg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.left-centered {
+  position: absolute;
+  top: 30%;
+  left: 30px;
+  font-size: 10vw;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+}
