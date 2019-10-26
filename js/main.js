@@ -2,7 +2,6 @@ $(document).ready(function() {
     $('#videoGallery').lightSlider({
       gallery:true,
       item:1,
-      adaptiveHeight:true,
       loop:true,
       thumbItem:8,
       thumbMargin:4,
