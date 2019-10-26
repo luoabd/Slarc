@@ -101,7 +101,7 @@
  .header .home-bg {
    min-height: 430px;
    /*max-height: 100vh; /* Romesh: changed this from 105vh */
-   height: 100vh; /* Romesh */
+   height: 100.7vh; /* Romesh */
  }
 
  .header .carousel-caption {
@@ -232,6 +232,7 @@
 
  .scroll-button {
    text-align: center;
+   z-index: 200;
  }
 
  .scroll-button p {
@@ -243,6 +244,7 @@
    color: #fff;
    font-size: 16px;
    font-family: "Gotham-Narrow-Book";
+   z-index: 200;
  }
 
  .scroll-button a {
@@ -255,11 +257,12 @@
    text-align: center;
    padding-top: 30px;
    margin: 0 auto;
-   margin-top: -45px;
+   margin-top: -100px;
    z-index: 55;
    position: relative;
    cursor: pointer;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
+   z-index: 200;
  }
 
  .social-links {
@@ -386,3 +389,38 @@
    min-width: 100%;
    min-height: 100%;*/
  }
+
+ .parallax1, .parallax2, .parallax3 {
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -500;
+ }
+
+ .parallax1 {
+  /* The image used */
+  background-image: url("../images/parallax-bg1.jpeg");
+  z-index: -500;
+  /* Set a specific height */
+  height: 300px;
+  
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../images/parallax-bg2.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("../images/parallax-bg3.jpeg");
+
+  /* Set a specific height */
+  height: 800px;
+}
+
