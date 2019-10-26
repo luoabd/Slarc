@@ -1,17 +1,14 @@
-$(document).ready(function() {
-    $('#videoGallery').lightSlider({
-      gallery:true,
-      item:1,
-      loop:true,
-      thumbItem:8,
-      thumbMargin:4,
-      keyPress: true,
-      onSliderLoad: function() {
-        $('#videoGallery').removeClass('cS-hidden');
+  $('.video').parent().click(function () {
+    if($(this).children(".video").get(0).paused){
+        $(this).children(".video").get(0).play();
+        $(this).children(".playpause").fadeOut();
+    }else{
+       $(this).children(".video").get(0).pause();
+        $(this).children(".playpause").fadeIn();
     }
-    });
-  });
+});
 
+  
 ; (function () {
 
     'use strict';

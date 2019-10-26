@@ -449,8 +449,45 @@
   width: 76px;
 }
 
-/* Play/Pause Button */
+/* Carousel */
+ #myCarousel .list-inline {
+  white-space:nowrap;
+}
+
+#myCarousel .carousel-indicators {
+  position: static;
+  left: initial;
+  width: initial;
+  margin-left: initial;
+}
+
+#myCarousel .carousel-indicators > li {
+  width: initial;
+  height: initial;
+  text-indent: initial;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+  opacity: 0.7;
+}
+
 .video {
   width: 100%;
   border: 1px solid black;
+}
+
+/* Play/Pause Button */
+.playpause {
+  background-image:url("../images/play.svg");
+  background-repeat:no-repeat;
+  width:50%;
+  height:50%;
+  position:absolute;
+  left:0%;
+  right:0%;
+  top:0%;
+  bottom:0%;
+  margin:auto;
+  background-size:contain;
+  background-position: center;
 }
