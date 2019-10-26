@@ -448,3 +448,9 @@
   height: 80px;
   width: 76px;
 }
+
+/* Play/Pause Button */
+.video {
+  width: 100%;
+  border: 1px solid black;
+}
