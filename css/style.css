@@ -442,3 +442,9 @@
   color: white;
   
 }
+
+/* logo  */
+.logo-desktop img{
+  height: 80px;
+  width: 76px;
+}
