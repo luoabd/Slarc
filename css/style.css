@@ -406,7 +406,7 @@
   /* The image used */
   background-image: url("../images/parallax-bg1.jpeg");
   /* Set a specific height */
-  height: 300px;
+  height: 500px;
   
 }
 
@@ -820,3 +820,112 @@ body {
   margin-left: 4px;
 }
 
+@font-face{
+  font-family: headerFont;
+  src: url("../fonts/SourceSansPro-Black.ttf");
+}
+
+@font-face{
+  font-family: subtitleFont;
+  src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+
+.parallax-header {
+  font-family: headerFont;
+  font-weight: bold;
+  font-size: 57px; 
+  text-align: center; 
+  color: black;
+  padding-top: 80px;
+}
+
+.parallax-subtitle {
+  font-family: subtitleFont;
+  font-size: 30px; 
+  text-align: center; 
+  color: black;
+  padding-top: 8px;
+  padding-bottom: 51px;
+}
+
+.panel-button {
+  font-family: subtitleFont;
+  background-color: rgb(180, 4, 4);
+  font-weight: bold;
+  font-size: 22px;
+  display: block; 
+  margin-left: 39%; 
+  margin-right: 39%;
+  border-radius: 0px;
+  margin-top: 50px;
+  margin-bottom: 51px;
+}
+
+.news-card {
+  width: 18rem;
+  height: 37vh;
+  margin: 20px;
+  box-shadow: 8px 8px 15px grey;
+}
+
+#grad1 {
+  background-image: linear-gradient(black, transparent), url(../images/News/Forum\ on\ Precision\ Medicine.jpg);
+  min-height: 37vh;
+  background-size: contain;
+}
+
+#grad2 {
+  background-image: linear-gradient(black, transparent), url(../images/News/First-Ever\ Urologic\ Laparoscopic\ Surgery.png);
+  min-height: 37vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#grad3 {
+  background-image: linear-gradient(white, transparent), url(../images/footer.jpg);
+  background-size: cover;
+  background-position-y: 100px;
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+}
+
+.parallax-text {
+  font-family: subtitleFont;
+  font-size: 19px; 
+  text-align: left; 
+  color: black;
+  font-weight: lighter;
+}
+
+.parallax-link {
+  font-family: subtitleFont;
+  font-size: 18px; 
+  text-align: left; 
+  color: teal;
+}
+
+.nav-links{
+  font-family: subtitleFont;
+  font-size: 25px;
+  color: black;
+  font-weight: lighter;
+  margin-bottom: 50px;
+  padding:0;
+  text-align:center;
+}
+.nav-links li{
+  display:inline;
+}
+.nav-links p{
+  display:inline-block;
+  padding:10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  grid-gap: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
