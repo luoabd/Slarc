@@ -1,553 +1,515 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
 
-    <title>Slarc</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-  <body>
-    <div id="fh5co-hero-carousel"
-      class="carousel slide header"
-      data-ride="carousel"
-    >
-      <nav class="navbar fixed-top navbar-expand-xl">
-        <div class="container">
-          <a class="navbar-brand mobile-logo" href="#"
-            ><img src="images/logo.png" alt="Vista Pro"
-          /></a>
-          <button
-            class="navbar-toggler"
-            data-target="#my-nav"
-            onclick="myFunction(this)"
-            data-toggle="collapse"
-          >
-            <span class="bar1"></span> <span class="bar2"></span>
-            <span class="bar3"></span>
-          </button>
+  <title>Slarc</title>
+</head>
 
-          <div id="my-nav" class="collapse navbar-collapse">
-            <div>
-              <p class="text-left follow">Follow Us:</p>
-              <ul class="navbar-nav float-left social-links">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa fa-weibo"></i></a>
+<body>
+  <div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
+    <nav class="navbar fixed-top navbar-expand-xl">
+      <div class="container">
+        <a class="navbar-brand mobile-logo" href="#"><img src="images/logo.png" alt="Vista Pro" /></a>
+        <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse">
+          <span class="bar1"></span> <span class="bar2"></span>
+          <span class="bar3"></span>
+        </button>
+
+        <div id="my-nav" class="collapse navbar-collapse">
+          <div>
+            <p class="text-left follow">Follow Us:</p>
+            <ul class="navbar-nav float-left social-links">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa fa-weibo"></i></a>
               </li>
               <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-weixin"></i></a>
               </li>
               <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-qq"></i></a>
               </li>
-              </ul>
-            </div>
+            </ul>
+          </div>
 
-            <ul class="navbar-nav mx-auto logo-desktop">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"><img src="images/logo.png" alt="Sichuan University" /></a>
+          <ul class="navbar-nav mx-auto logo-desktop">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><img src="images/logo.png" alt="Sichuan University" /></a>
             </li>
-            </ul>
+          </ul>
 
-            <ul class="navbar-nav float-right menu-links">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about-us">About Us</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="statistics.html">Statistics</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./gallery.html">Videos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#news">News</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <video autoplay muted loop id="myVideo">
-            <source src="videos/header_back.mp4" type="video/mp4" />
-          </video>
-
-          <div class="carousel-caption d-md-block">
-            <p class="frst-hrd">Everyone is Photogenic</p>
-            <h5>Today’s SPECIAL MOMENTS.</h5>
-            <p>Creating a timeless look, coupled with a flawless moment</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100 home-bg"
-            alt="home-bg"
-            src="images/home-bg2.jpeg"
-          />
-
-          <div class="carousel-caption d-md-block">
-            <p class="frst-hrd">Everyone is Photogenic</p>
-            <h5>Today’s SPECIAL MOMENTS.</h5>
-            <p>Creating a timeless look, coupled with a flawless moment</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100 home-bg"
-            alt="home-bg"
-            src="images/home-bg3.jpeg"
-          />
-
-          <div class="carousel-caption d-md-block">
-            <p class="frst-hrd">Everyone is Photogenic</p>
-            <h5>Today’s SPECIAL MOMENTS.</h5>
-            <p>Creating a timeless look, coupled with a flawless moment</p>
-          </div>
-        </div>
-        <div class="scroll-button">
-          <p>Scroll down to see more...</p>
-          <a href="#about-us" class="page-scroll">
-            <img src="images/arrows-down.png" alt="arrow down" />
-          </a>
+          <ul class="navbar-nav float-right menu-links" style="margin-right: auto;">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="statistics.html">Statistics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./gallery.html">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <ul class="carousel-indicators">
-        <li
-          class="active"
-          data-target="#fh5co-hero-carousel"
-          data-slide-to="0"
-          aria-current="location"
-        ></li>
-        <li data-target="#fh5co-hero-carousel" data-slide-to="1"></li>
-        <li data-target="#fh5co-hero-carousel" data-slide-to="2"></li>
-      </ul>
-    </div>
+    </nav>
 
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video autoplay muted loop id="myVideo">
+          <source src="videos/header_back.mp4" type="video/mp4" />
+        </video>
+
+        <div class="carousel-caption d-md-block">
+          <p class="frst-hrd">Everyone is Photogenic</p>
+          <h5>Today’s SPECIAL MOMENTS.</h5>
+          <p>Creating a timeless look, coupled with a flawless moment</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 home-bg" alt="home-bg" src="images/home-bg2.jpeg" />
+
+        <div class="carousel-caption d-md-block">
+          <p class="frst-hrd">Everyone is Photogenic</p>
+          <h5>Today’s SPECIAL MOMENTS.</h5>
+          <p>Creating a timeless look, coupled with a flawless moment</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100 home-bg" alt="home-bg" src="images/home-bg3.jpeg" />
+
+        <div class="carousel-caption d-md-block">
+          <p class="frst-hrd">Everyone is Photogenic</p>
+          <h5>Today’s SPECIAL MOMENTS.</h5>
+          <p>Creating a timeless look, coupled with a flawless moment</p>
+        </div>
+      </div>
+      <div class="scroll-button">
+        <p>Scroll down to see more...</p>
+        <a href="#about-us" class="page-scroll">
+          <img src="images/arrows-down.png" alt="arrow down" />
+        </a>
+      </div>
+    </div>
+    <ul class="carousel-indicators">
+      <li class="active" data-target="#fh5co-hero-carousel" data-slide-to="0" aria-current="location"></li>
+      <li data-target="#fh5co-hero-carousel" data-slide-to="1"></li>
+      <li data-target="#fh5co-hero-carousel" data-slide-to="2"></li>
+    </ul>
+  </div>
+
+  <!-- Container element -->
+  <!--SCU TODAY-->
+  <div>
+    <div class="parallax-header">SCU Today</div>
+    <h1 class="parallax-subtitle">The latest news from Sichuan University</h1>
+    <div>
+      <div class="container" style="width: 90%;">
+        <div class="row" style="padding-bottom: 3vh;">
+          <div class="col-sm-6" >
+            <div class="card bg-dark text-white news-card" style="width: 98%; margin: auto; height: 100%;">
+                <div id=grad1 class="card-img-top">
+                  <div class="card-img-overlay">
+                    <h6 style="color: white; font-weight: bold;">
+                      SCIENCE & TECHNOLOGY
+                    </h6>
+                    <h5 class="card-title">
+                      <a href="gallery.html" style="color: white;">
+                        The 2019 5th Chengdu International Forum on
+                        Precision Medicine successfully held in Chengdu
+                      </a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
+                <img src="./images/News/Dr. Feng.jpg" class="card-img-top" style="height: 60%;">
+                <div class="card-body">
+                  <h6 style="color: brown; font-weight: bold;">
+                    SCIENCE & TECHNOLOGY
+                  </h6>
+                  <h5 class="card-title">
+                    <a href="gallery.html" style="color: black;">
+                      Dr. Feng Helps Philippine General Hospital on TAVI Case
+                    </a>
+                  </h5>
+                </div>
+            </div>
+          </div>
+          <div class="col-sm-3" >
+            <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
+                <img src="./images/News/First-Ever Urologic Laparoscopic Surgery.png" class="card-img-top" style="height: 60%;">
+                <div class="card-body">
+                  <h6 style="color: brown; font-weight: bold;">
+                    SCIENCE & TECHNOLOGY
+                  </h6>
+                  <h5 class="card-title">
+                    <a href="gallery.html" style="color: black;">
+                        China's Medical Team Completed First-Ever Urologic
+                        Laparoscopic Surgery in Mozambique
+                    </a>
+                  </h5>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-3" >
+            <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
+                <img src="./images/News/Chinese Classical Show for International Students.png" class="card-img-top" style="height: 60%;">
+                <div class="card-body">
+                  <h6 style="color: brown; font-weight: bold;">
+                    HUMANITIES
+                  </h6>
+                  <h5 class="card-title">
+                    <a href="gallery.html" style="color: black;">
+                      The 2019 Chinese Classical Show for
+                      International Students Staged in SCU
+                    </a>
+                  </h5>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-3" >
+            <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
+                <img src="./images/News/Ranked 53.png" class="card-img-top" style="height: 60%;">
+                <div class="card-body">
+                  <h6 style="color: brown; font-weight: bold;">
+                    HUMANITIES
+                  </h6>
+                  <h5 class="card-title">
+                    <a href="gallery.html" style="color: black;">
+                      SCU Ranked 53rd among Global Universities in the Latest Nature Index
+                    </a>
+                  </h5>
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-6" >
+            <div class="card bg-dark text-white news-card" style="width: 98%; margin: auto; height: 100%;">
+                <div id=grad2 class="card-img-top">
+                  <div class="card-img-overlay">
+                    <h6 style="color: white; font-weight: bold;">
+                      SCIENCE & TECHNOLOGY
+                    </h6>
+                    <h5 class="card-title">
+                      <a href="gallery.html" style="color: white;">
+                        China's Medical Team Completed First-Ever Urologic
+                        Laparoscopic Surgery in Mozambique
+                      </a>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn btn-primary panel-button">More SCU News</a>
+    </div>
+  </div>
+
+  <div class="parallax1"></div>
+  <!-- ACADEMICS-->
+  <div>
+    <div class="parallax-header">Academics</div>
+    <h1 class="parallax-subtitle">
+      Preparing students to make meaningful contributions to society<br>
+      as engaged citizens and leaders in a complex world
+    </h1>
+    <table class="w3-table-all w3-centered" style="width: 80vw; border: 0px; margin-bottom: 9vh;" align="center">
+      <tr>
+        <th>
+          <div class="card" style="width: 23vw; background-color: transparent; border-width: 0px;">
+            <img src="./images/Acadamics/Undergraduate.jpg" class="card-img-top">
+            <div class="card-body" style="padding: 0px; padding-top: 2vh;">
+              <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
+                Undergraduate Education
+              </h5>
+              <p class="card-text parallax-text">
+                Rich learning experiences that provide a broad
+                liberal arts foundation and deep subject-area expertise
+              </p>
+              <a class="card-text parallax-link" href="#">
+                Undergraduate Education >
+              </a>
+            </div>
+          </div>
+        </th>
+        <th>
+          <div class="card" style="width: 23vw; background-color: transparent; border-width: 0px;">
+            <img src="./images/Acadamics/Graduate.jpg" class="card-img-top">
+            <div class="card-body" style="padding: 0px; padding-top: 2vh;">
+              <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
+                Graduate Education
+              </h5>
+              <p class="card-text parallax-text">
+                Unsurpassed opportunities to participate in the
+                advancement of entire fields of knowledge
+              </p>
+              <a class="card-text parallax-link" href="#">
+                Graduate Education >
+              </a>
+            </div>
+          </div>
+        </th>
+        <th>
+          <div class="card" style="width: 23vw; background-color: transparent; border-width: 0px;">
+            <img src="./images/Acadamics/Lifelong Learning.jpg" class="card-img-top">
+            <div class="card-body" style="padding: 0px; padding-top: 2vh;">
+              <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
+                Lifelong learning
+              </h5>
+              <p class="card-text parallax-text">
+                Continuing adult education, executive and professional
+                programs, and programs for K-12 students
+              </p>
+              <a class="card-text parallax-link" href="#">
+                Programs for Lifelong Learning >
+              </a>
+            </div>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <h3 style="color:black; text-align: center; font-weight: bold;">
+      Thirty collages in which to pursue your passions
+    </h3>
+    <ul class="nav-links">
+      <li><a href="/">Medicine</a></li>
+      <li>|</li>
+      <li><a href="/about/">Law</a></li>
+      <li>|</li>
+      <li><a href="/work/">Humanities & Sciences</a></li>
+      <li>|</li>
+      <li><a href="/clients/">Engineering</a></li>
+      <li>|</li>
+      <li><a href="/contact/">Education</a></li>
+      <li>|</li>
+      <li><a href="/contact/">Earth</a></li>
+      <li>|</li>
+      <li><a href="/contact/">Business</a></li>
+    </ul>
+    <a href="#" class="btn btn-primary panel-button">More About Academics</a>
+  </div>
+
+  <div class="parallax2"></div>
+
+  <!--CAMPUS LIFE-->
+  <div class="parallax-text">
+    <div class="parallax-header">Campus Life</div>
+    <h1 class="parallax-subtitle">
+      A thriving community of creative and accomplished people from around<br>
+      the world
+    </h1>
     
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="background-color: transparent; border-width: 0px;">
+              <img src="./images/Campus Life/Student Life.jpg" class="card-img-top" style="height:17.5rem;">
+              <div class="card-body" style="padding: 0px; padding-top: 2vh;">
+                <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
+                  Student Life
+                </h5>
+                <p class="card-text parallax-text">
+                  A residential campus with diverse housing, exceptional dining,
+                  health care and over 600 student organizations
+                </p>
+                <a class="card-text parallax-link" href="#">
+                  Student Affairs >
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background-color: transparent; border-width: 0px;">
+              <img src="./images/Campus Life/Arts Culture.jpg" class="card-img-top" style="height:17.5rem;">
+              <div class="card-body" style="padding: 0px; padding-top: 2vh;">
+                <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
+                  Arts & Culture
+                </h5>
+                <p class="card-text parallax-text">
+                  A rich tradition of fostering creativity and a
+                  vibrant arts district on campus
+                </p>
+                <a class="card-text parallax-link" href="#">
+                  SCU Arts >
+                </a>
+              </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="background-color: transparent; border-width: 0px;">
+              <img src="./images/Campus Life/Athletics & Fitness.jpg" class="card-img-top" style="height:17.5rem;">
+              <div class="card-body" style="padding: 0px; padding-top: 2vh;">
+                <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
+                  Athletics & Fitness
+                </h5>
+                <p class="card-text parallax-text">
+                  36 varsity sports, 32 club sports and state-of-the-art
+                  recreational facilities and fitness programs
+                </p>
+                <a class="card-text parallax-link" href="#">
+                  Go SCU >
+                </a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <!-- Container element -->
-    <!--SCU TODAY-->
-    <div>
-      <div class="parallax-header">SCU Today</div>
-      <h1 class="parallax-subtitle">The latest news from Sichuan University</h1>
+    <a href="#" class="btn btn-primary panel-button">More About Campus Life</a>
+  </div>
+
+  <div class="parallax3"></div>
+
+  <!--Admission-->
+  <div class="parallax-text">
+    <div class="parallax-header">Admission</div>
+    <h1 class="parallax-subtitle">
+      An extraordinary freedom of opportunity—to explore, to
+      <br>collaborate and to challenge yourself
+    </h1>
+
+    <img src="./images/admission.jpg"
+      style="display: block; margin-left: auto; margin-right: auto; width: 80%; margin-bottom: 5vh;">
+
+    <div class="grid-container">
       <div>
-          <table class="w3-table-all w3-centered" style="width: 64vw; border: 0px;" align="center">
-            <tr>
-              <th>
-                  <div>
-                      <div class="card bg-dark text-white news-card" style="width: 36rem; ">
-                        <div id=grad1 class="card-img-top">
-                          <div class="card-img-overlay">
-                            <h6 style="color: white; font-weight: bold;">
-                                SCIENCE & TECHNOLOGY
-                            </h6>
-                            <h5 class="card-title">
-                              <a href="gallery.html" style="color: white;">
-                              The 2019 5th Chengdu International Forum on 
-                              Precision Medicine successfully held in Chengdu
-                              </a>
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-              </th>
-              <th>
-                  <div>
-                      <div class="card news-card">
-                        <img src="./images/News/Dr. Feng.jpg" class="card-img-top">
-                        <div class="card-body">
-                          <h6 style="color: brown; font-weight: bold;">
-                              SCIENCE & TECHNOLOGY
-                          </h6>
-                          <h5 class="card-title">
-                            <a href="gallery.html" style="color: black;">
-                                Dr. Feng Helps Philippine General Hospital on TAVI Case
-                            </a>
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-              </th>
-              <th>
-                  <div>
-                      <div class="card news-card">
-                        <img src="./images/News/First-Ever Urologic Laparoscopic Surgery.png" class="card-img-top">
-                        <div class="card-body">
-                          <h6 style="color: brown; font-weight: bold;">
-                              SCIENCE & TECHNOLOGY
-                          </h6>
-                          <h5 class="card-title">
-                            <a href="gallery.html" style="color: black;">
-                                China's Medical Team Completed First-Ever Urologic 
-                                Laparoscopic Surgery in Mozambique
-                            </a>
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-              </th>
-            </tr>
-          </table>
-          <table class="w3-table-all w3-centered" style="width: 64vw; border: 0px;" align="center">
-            <tr>
-              <th>
-                  <div>
-                      <div class="card news-card">
-                        <img src="./images/News/Chinese Classical Show for International Students.png" class="card-img-top">
-                        <div class="card-body">
-                          <h6 style="color: brown; font-weight: bold;">
-                              HUMANITIES
-                          </h6>
-                          <h5 class="card-title">
-                            <a href="gallery.html" style="color: black;">
-                                The 2019 Chinese Classical Show for 
-                                International Students Staged in SCU
-                            </a>
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-              </th>
-              <th>
-                  <div>
-                      <div class="card news-card">
-                        <img src="./images/News/Ranked 53.png" class="card-img-top">
-                        <div class="card-body">
-                          <h6 style="color: brown; font-weight: bold;">
-                              HUMANITIES
-                          </h6>
-                          <h5 class="card-title">
-                            <a href="gallery.html" style="color: black;">
-                                SCU Ranked 53rd among Global Universities in the Latest Nature Index
-                            </a>
-                          </h5>
-                        </div>
-                      </div>
-                    </div>
-              </th>
-              <th>
-                  <div>
-                      <div class="card bg-dark text-white news-card" style="width: 36rem; ">
-                        <div id=grad2 class="card-img-top">
-                          <div class="card-img-overlay">
-                            <h6 style="color: white; font-weight: bold;">
-                                SCIENCE & TECHNOLOGY
-                            </h6>
-                            <h5 class="card-title">
-                              <a href="gallery.html" style="color: white;">
-                                China's Medical Team Completed First-Ever Urologic 
-                                Laparoscopic Surgery in Mozambique
-                              </a>
-                            </h5>
-                          </div>
-                        </div>
-                      </div>
-                </div>
-              </th>
-            </tr>
-          </table>
-        <a href="#" class="btn btn-primary panel-button">More SCU News</a>
-      </div>
-    </div>
-
-    <div class="parallax1"></div>
-    <!-- ACADEMICS-->
-    <div>
-        <div class="parallax-header">Academics</div>
-        <h1 class="parallax-subtitle">
-          Preparing students to make meaningful contributions to society<br> 
-          as engaged citizens and leaders in a complex world
-        </h1>
-        <table class="w3-table-all w3-centered" style="width: 80vw; border: 0px; margin-bottom: 80px;" align="center">
-          <tr>
-            <th>
-                <div class="card" style="width: 28rem; background-color: transparent; border-width: 0px;">
-                    <img src="./images/Acadamics/Undergraduate.jpg" class="card-img-top">
-                    <div class="card-body" style="padding: 0px; padding-top: 20px;">
-                      <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
-                        Undergraduate Education
-                      </h5>
-                      <p class="card-text parallax-text">
-                        Rich learning experiences that provide a broad 
-                        liberal arts foundation and deep subject-area expertise
-                      </p>
-                      <a class="card-text parallax-link" href="#" >
-                          Undergraduate Education >
-                      </a>
-                    </div>
-                </div>
-            </th>
-            <th>
-                <div class="card" style="width: 28rem; background-color: transparent; border-width: 0px;">
-                    <img src="./images/Acadamics/Graduate.jpg" class="card-img-top">
-                    <div class="card-body" style="padding: 0px; padding-top: 20px;">
-                      <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
-                        Graduate Education
-                      </h5>
-                      <p class="card-text parallax-text">
-                          Unsurpassed opportunities to participate in the 
-                          advancement of entire fields of knowledge
-                      </p>
-                      <a class="card-text parallax-link" href="#" >
-                          Graduate Education >
-                      </a>
-                    </div>
-                </div>
-            </th>
-            <th>
-                <div class="card" style="width: 28rem; background-color: transparent; border-width: 0px;">
-                    <img src="./images/Acadamics/Lifelong Learning.jpg" class="card-img-top">
-                    <div class="card-body" style="padding: 0px; padding-top: 20px;">
-                      <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
-                          Lifelong learning
-                      </h5>
-                      <p class="card-text parallax-text">
-                          Continuing adult education, executive and professional 
-                          programs, and programs for K-12 students
-                      </p>
-                      <a class="card-text parallax-link" href="#" >
-                          Programs for Lifelong Learning >
-                      </a>
-                    </div>
-                </div>
-            </th>
-          </tr>
-        </table>
-        <h3 style="color:black; text-align: center; font-weight: bold;">
-            Thirty collages in which to pursue your passions
+        <h3 class=parallax-subtitle style="font-weight: bold;text-align: left; font-size: 25px; padding-bottom: 0px; ">
+          Explore the possibilities of a SCU education as you map out your college journey.
         </h3>
-        <ul class="nav-links">
-            <li><a href="/">Medicine</a></li>
-            <li>|</li>
-            <li><a href="/about/">Law</a></li>
-            <li>|</li>
-            <li><a href="/work/">Humanities & Sciences</a></li>
-            <li>|</li>
-            <li><a href="/clients/">Engineering</a></li>
-            <li>|</li>
-            <li><a href="/contact/">Education</a></li>
-            <li>|</li>
-            <li><a href="/contact/">Earth</a></li>
-            <li>|</li>
-            <li><a href="/contact/">Business</a></li>
-        </ul>
-        <a href="#" class="btn btn-primary panel-button">More About Academics</a>
-    </div>
-
-    <div class="parallax2"></div>
-
-    <!--CAMPUS LIFE-->
-    <div class="parallax-text">
-        <div class="parallax-header">Campus Life</div>
-        <h1 class="parallax-subtitle">
-            A thriving community of creative and accomplished people from around<br>
-            the world
-        </h1>
-        <table class="w3-table-all w3-centered" style="width: 80vw; border: 0px; margin-bottom: 80px;" align="center">
-            <tr>
-              <th>
-                  <div class="card" style="width: 28rem; background-color: transparent; border-width: 0px;">
-                      <img src="./images/Campus Life/Student Life.jpg" class="card-img-top" style = "height:17.5rem;" >
-                      <div class="card-body" style="padding: 0px; padding-top: 20px;">
-                        <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
-                            Student Life
-                        </h5>
-                        <p class="card-text parallax-text">
-                            A residential campus with diverse housing, exceptional dining, 
-                            health care and over 600 student organizations
-                        </p>
-                        <a class="card-text parallax-link" href="#" >
-                            Student Affairs >
-                        </a>
-                      </div>
-                  </div>
-              </th>
-              <th>
-                  <div class="card" style="width: 28rem; background-color: transparent; border-width: 0px;">
-                      <img src="./images/Campus Life/Arts Culture.jpg" class="card-img-top"  style = "height:17.5rem;">
-                      <div class="card-body" style="padding: 0px; padding-top: 20px;">
-                        <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
-                            Arts & Culture
-                        </h5>
-                        <p class="card-text parallax-text">
-                            A rich tradition of fostering creativity and a 
-                            vibrant arts district on campus
-                        </p>
-                        <a class="card-text parallax-link" href="#" >
-                            SCU Arts >
-                        </a>
-                      </div>
-                  </div>
-              </th>
-              <th>
-                  <div class="card" style="width: 28rem; background-color: transparent; border-width: 0px;">
-                      <img src="./images/Campus Life/Athletics & Fitness.jpg" class="card-img-top"  style = "height:17.5rem;">
-                      <div class="card-body" style="padding: 0px; padding-top: 20px;">
-                        <h5 class="card-title" style="color: black; font-weight: bold; font-size: 25px;">
-                            Athletics & Fitness
-                        </h5>
-                        <p class="card-text parallax-text">
-                            36 varsity sports, 32 club sports and state-of-the-art 
-                            recreational facilities and fitness programs
-                        </p>
-                        <a class="card-text parallax-link" href="#" >
-                            Go SCU >
-                        </a>
-                      </div>
-                  </div>
-              </th>
-            </tr>
-        </table>
-        <a href="#" class="btn btn-primary panel-button">More About Campus Life</a>
-    </div>
-
-    <div class="parallax3"></div>
-
-    <!--Admission-->
-    <div class="parallax-text">
-        <div class="parallax-header">Admission</div>
-        <h1 class="parallax-subtitle">
-            An extraordinary freedom of opportunity—to explore, to 
-            <br>collaborate and to challenge yourself
-        </h1>
-
-        <img src="./images/admission.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 80%; height: 600px; margin-bottom: 50px;">
-        
-        <div class="grid-container">
-            <div>
-                <h3 class= parallax-subtitle style="font-weight: bold;text-align: left; font-size: 25px; padding-bottom: 0px; ">
-                  Explore the possibilities of a SCU education as you map out your college journey.
-                </h3>
-                <h3 style="text-align: left; font-size: 18px;">
-                    We look for distinctive students who exhibit an abundance of energy and curiosity in
-                     their classes, activities, projects, research and lives.
-                </h3>
-            </div>
-            <div>
-                <h3 class= parallax-subtitle style="font-weight: bold;text-align: left; font-size: 25px; padding-bottom: 0px">
-                    SCU meets the full financial need of every admitted undergrad who qualifies for assistance.
-                </h3>
-                <h3 style="text-align: left; font-size: 18px;">
-                    Nearly 70% of undergrads receive financial aid. Generally, tuition is covered for families with incomes below RMB 125,000.
-                </h3>
-            </div>
-          </div>
-        
-        <a href="#" class="btn btn-primary panel-button">More About Campus Life</a>
-    </div>
-
-    <div>
-      I'll Add One more part here!!!!!! 
-    </div>
-
-
-    <!--About SCU-->
-    <div id=grad3 style="background-color: white; padding-bottom: 20px;">
-        <div class="parallax-header">About Sichuan University</div>
-        <h1 class="parallax-subtitle">
-            A place for learning, discovery, innovation, expression and <br>discourse
-        </h1>
-        <table style="width: 80vw; border: 0px; margin-bottom: 80px; text-align: center; margin-left: 13vw;" align="center">
-          <th>
-            <p class="parallax-subtitle" style="font-size: 25px; padding-bottom: 0px;">Founded in</p>
-            <p class="parallax-header" style="padding-top: 0px;font-size: 50px;">1740</p>
-          </th>
-          <th>
-            <p class="parallax-subtitle" style="font-size: 25px; padding-bottom: 0px;">Students</p>
-            <p class="parallax-header" style="padding-top: 0px;font-size: 50px;">70,000</p>
-          </th>
-          <th>
-            <p class="parallax-subtitle" style="font-size: 25px; padding-bottom: 0px;">Faculty</p>
-            <p class="parallax-header" style="padding-top: 0px; font-size: 50px;">11,357</p>
-          </th>
-        </table>       
-        <a href="#" class="btn btn-primary panel-button">More About Sichuan University</a>
-    </div style="height: 100px">
-    <div>
-        Set The Footer Here
-    </div>
-    </div>
-    <footer id="myFooter">
-      <div class="container">
-          <div class="row">
-              <div class="col-sm-3 footer-info">
-                      <div>
-                          <i class="fa fa-map-marker"></i>
-                          <p><span>Shuanlgiu Street</span> Chengdu, China</p>
-                      </div>
-  
-                      <div>
-                          <i class="fa fa-phone"></i>
-                          <p>173 xxxx xxxx</p>
-                      </div>
-  
-                      <div>
-                          <i class="fa fa-envelope"></i>
-                          <p><a href="mailto:support@company.com">support@company.com</a></p>
-                      </div>
-                  </div>
-              <div class="col-sm-2">
-                  <h5>Get started</h5>
-                  <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Portfolio</a></li>
-                      <li><a href="#">Video Gallery</a></li>
-                  </ul>
-              </div>
-              <div class="col-sm-2">
-                  <h5>About us</h5>
-                  <ul>
-                      <li><a href="#">School Information</a></li>
-                      <li><a href="#">Contact us</a></li>
-                      <li><a href="#">Reviews</a></li>
-                  </ul>
-              </div>
-              <div class="col-sm-2">
-                  <h5>Support</h5>
-                  <ul>
-                      <li><a href="#">FAQ</a></li>
-                      <li><a href="#">Help desk</a></li>
-                      <li><a href="#">Forums</a></li>
-                  </ul>
-              </div>
-              <div class="col-sm-3">
-                  <div class="social-networks">
-                      <a href="#" class="twitter"><i class="fa fa-qq"></i></a>
-                      <a href="#" class="facebook"><i class="fa fa-weixin"></i></a>
-                      <a href="#" class="google"><i class="fa fa-weibo"></i></a>
-                  </div>
-                  <button type="button" class="btn btn-default"><a href="#">Contact us</a></button>
-              </div>
-          </div>
+        <h3 style="text-align: left; font-size: 18px;">
+          We look for distinctive students who exhibit an abundance of energy and curiosity in
+          their classes, activities, projects, research and lives.
+        </h3>
       </div>
-      <div class="footer-copyright">
-          <p>© 2019 Sichuan University </p>
+      <div>
+        <h3 class=parallax-subtitle style="font-weight: bold;text-align: left; font-size: 25px; padding-bottom: 0px">
+          SCU meets the full financial need of every admitted undergrad who qualifies for assistance.
+        </h3>
+        <h3 style="text-align: left; font-size: 18px;">
+          Nearly 70% of undergrads receive financial aid. Generally, tuition is covered for families with incomes below
+          RMB 125,000.
+        </h3>
       </div>
-  </footer>
-  
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+    </div>
 
-  <footer>
+    <a href="#" class="btn btn-primary panel-button">More About Admission</a>
+  </div>
 
+  <div>
+    I'll Add One more part here!!!!!!
+  </div>
+
+
+  <!--About SCU-->
+  <div id=grad3 style="background-color: white;">
+    <div class="parallax-header">About Sichuan University</div>
+    <h1 class="parallax-subtitle">
+      A place for learning, discovery, innovation, expression and <br>discourse
+    </h1>
+    <table style="width: 80vw; border: 0px; margin-bottom: 8vh; text-align: center; margin-left: 13vw;" align="center">
+      <th>
+        <p class="parallax-subtitle" style="font-size: ; padding-bottom: 0;">Founded in</p>
+        <p class="parallax-header" style="padding-top: 0 ;font-size: 50;">1740</p>
+      </th>
+      <th>
+        <p class="parallax-subtitle" style="font-size: 25px; padding-bottom: 0px;">Students</p>
+        <p class="parallax-header" style="padding-top: 0px;font-size: 50px;">70,000</p>
+      </th>
+      <th>
+        <p class="parallax-subtitle" style="font-size: 25px; padding-bottom: 0px;">Faculty</p>
+        <p class="parallax-header" style="padding-top: 0px; font-size: 50px;">11,357</p>
+      </th>
+    </table>
+    <a href="#" class="btn btn-primary panel-button">More About Sichuan University</a>
+  </div style="height: 10vh">
+  </div>
+
+  <footer id="myFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 footer-info">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Shuanlgiu Street</span> Chengdu, China</p>
+          </div>
+
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>173 xxxx xxxx</p>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">support@company.com</a></p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h5>Get started</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Video Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>About us</h5>
+          <ul>
+            <li><a href="#">School Information</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help desk</a></li>
+            <li><a href="#">Forums</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-qq"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-weixin"></i></a>
+            <a href="#" class="google"><i class="fa fa-weibo"></i></a>
+          </div>
+          <button type="button" class="btn btn-default"><a href="#">Contact us</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>© 2019 Sichuan University </p>
+    </div>
   </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+<footer>
+
+</footer>
+
 </html>

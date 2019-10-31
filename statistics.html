@@ -82,74 +82,76 @@
 
     <div class="banner-image">
         <div class="banner-text">
-          <h1 style="font-size:6vw">Statistics</h1>
+            <h1 style="font-size:6vw">Statistics</h1>
         </div>
-      </div>
+    </div>
 
-    <div class="container-fluid" style="padding-left: 2%;">
-        
-        <div class="w3-container">             
-            <h3 style="color: black; font-weight: bold;">KEY STATISTICS</h3>
-            <table class="w3-table-all w3-centered" style="width: 64vw; border: 0px;">
-                    <tr>
-                    <th>
-                        <div class="w3-card-4">
-                                <img src="images/tile1.png" style="width:16vw">
-                                <div class="w3-container w3-center" style="height: 0px;">
-                                        <div class="tile-value">13.8</div>
-                                        <div class="tile-description">No. of students per staff</div>
-                                </div>
+    <div style="width: 90%; margin: auto; ">
+        <div>
+            <div class="container" style="margin-top:5vh;">
+                <h3 style="color: black; font-weight: bold; margin-top:5vh; margin-bottom: 5vh;">KEY STATISTICS</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="tile">
+                            <img src="images/tile1.png" style="width: 100%;">
+                            <div class="w3-container w3-center" style="height: 0px;">
+                                <div class="tile-value">13.8</div>
+                                <div class="tile-description">No. of students per staff</div>
                             </div>
-                    </th>
-                    <th>
-                        <div class="w3-card-4">
-                                <img src="images/tile2.png" style="width:16vw">
-                                <div class="w3-container w3-center" style="height: 0px;">
-                                        <div class="tile-value">4%</div>
-                                        <div class="tile-description">Percentage of International Students</div>
-                                </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tile">
+                            <img src="images/tile2.png" style="width: 100%;">
+                            <div class="w3-container w3-center" style="height: 0px;">
+                                <div class="tile-value">4%</div>
+                                <div class="tile-description">Percentage of International Students</div>
                             </div>
-                    </th>
-                    <th>
-                            <div class="w3-card-4">
-                                    <img src="images/tile3.png" style="width:16vw">
-                                    <div class="w3-container w3-center" style="height: 0px;">
-                                            <div class="tile-value">50 : 50</div>
-                                            <div class="tile-description">Student Ratio of Females to Males</div>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tile">
+                            <img src="images/tile3.png" style="width: 100%;">
+                            <div class="w3-container w3-center" style="height: 0px;">
+                                <div class="tile-value">50 : 50</div>
+                                <div class="tile-description">Student Ratio of Females to Males</div>
                             </div>
-                    </th>
-                    <th>
-                            <div class="w3-card-4">
-                                    <img src="images/tile1.png" style="width:16vw">
-                                    <div class="w3-container w3-center" style="height: 0px;">
-                                            <div class="tile-value">64,648</div>
-                                            <div class="tile-description">Number of FTE Students</div>
-                                    </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="tile">
+                            <img src="images/tile1.png" style="width: 100%;">
+                            <div class="w3-container w3-center" style="height: 0px;">
+                                <div class="tile-value">64,648</div>
+                                <div class="tile-description">Number of FTE Students</div>
                             </div>
-                    </th>    
-                    </tr>
-            </table>    
-            <h5 style="color: gray; text-align: right; padding-right: 100px;">Based on data collected for the 2020 World University Rankings</h5>
+                        </div>
+                    </div>
+                </div>
+                <h5 style="color: gray; text-align: right; padding-right: 4vw;">* Based on data collected for the 2020 World University Rankings</h5>
+            </div>
+
         </div>
-        <div class="w3-container"> 
-                <section>
-                    <h3 style="color: black; font-weight: bold; padding-top: 20px;">
-                            EXPLORE RANKINGS DATA
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 style="color: black; font-weight: bold; padding-top: 4vh;  padding-bottom: 3vh;">
+                        EXPLORE RANKINGS DATA
                     </h3>
                     <script src="js/core.js"></script>
                     <script src="js/charts.js"></script>
                     <script src="js/animated.js"></script>
                     <script src="js/RankingChart.js"></script>
                     <div id="chartdiv"></div>
-                    <h5 style="color: gray; padding-right: 100px;">* Lower is better</h5>
-                </section>
-                <aside>
-                    <h3 style="color: black; font-weight: bold; padding-top: 20px;">
-                            RANKING BREAKDOWN VIA YEAR
+                    <h5 style="color: gray; padding-right: 10vw;">* Lower is better</h5>
+                </div>
+                <div class="col">
+                    <h3 style="color: black; font-weight: bold; padding-top: 4vh;  padding-bottom: 4vh;">
+                        RANKING BREAKDOWN VIA YEAR
                     </h3>
-                    <div id="app"></div> 
-  
+                    <div id="app"></div>
+
                     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
                     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
                     <script src="js/prop-types.min.js">
@@ -159,136 +161,33 @@
                     <script src="https://cdn.jsdelivr.net/npm/apexcharts@latest"></script>
                     <script src="js/react-apexcharts.iife.min.js"></script>
 
-                    <script type="text/babel">
+                    <script src="js/lineChart.js" type="text/babel"></script>
 
-                        class LineChart extends React.Component {
-                        
-                        constructor(props) {
-                            super(props);
-
-                            this.state = {
-                            options: {
-                                chart: {
-                                zoom: {
-                                enabled: false
-                                },
-                            },
-                            dataLabels: {
-                                enabled: false
-                            },
-                            stroke: {
-                                width: [5, 7, 5],
-                                curve: 'straight',
-                                dashArray: [0, 8, 5]
-                            },
-                            markers: {
-                                size: 0,
-                                
-                                hover: {
-                                sizeOffset: 6
-                                }
-                            },
-                            xaxis: {
-                                categories: ['2014', '2015', '2016', '2017', '2018', '2019'],
-                            },
-                            tooltip: {
-                                y: [{
-                                title: {
-                                    formatter: function (val) {
-                                    return val + " (mins)"
-                                    }
-                                }
-                                }, {
-                                title: {
-                                    formatter: function (val) {
-                                    return val + " per session"
-                                    }
-                                }
-                                }, {
-                                title: {
-                                    formatter: function (val) {
-                                    return val;
-                                    }
-                                }
-                                }]
-                            },
-                            grid: {
-                                borderColor: '#f1f1f1',
-                            }
-                            },
-                            series: [{
-                                name: "Times Higher Education",
-                                data: [601, 601, 601, 601, 601, 601]
-                            },
-                            {
-                                name: "Center for World University Ranking",
-                                data: [515, 479, 427, 407, 296, 274]
-                            },
-                            {
-                                name: 'QS University Ranking',
-                                data: [551, 551, 551, 551, 551, 601]
-                            },
-                            {
-                                name: 'Shanghai Ranking',
-                                data: [301, 301, 201, 151, 151, 151]
-                            },
-                            {
-                                name: 'Round University Ranking',
-                                data: [469, 526, 476, 509, 441, 431]
-                            },
-                            {
-                                name: 'Webometrics',
-                                data: [231, 207, 218, 255, 255, 282]
-                            }
-                            ],
-                            }
-                        }
-
-                        render() {
-
-                            return (
-                            <div>
-                                <div id="chart">
-                                <ReactApexChart options={this.state.options} series={this.state.series} type="line" height="350" />
-                                </div>
-                                <div id="html-dist">
-                                </div>
-                            </div>
-                            );
-                        }
-                        }
-
-                        const domContainer = document.querySelector('#app');
-                        ReactDOM.render(React.createElement(LineChart), domContainer);
-                    </script>      
-                </aside>
-        </div>
-        <div class="w3-container">
-            <section>
-                <h3 style="color: black; font-weight: bold; padding-top: 20px;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3 style="color: black; font-weight: bold; padding-top: 4vh;padding-bottom: 4vh;">
                         LOCAL STUDENTS VS OVERSEAS STUDENTS
-                </h3>
-                <script src="js/material.js"></script>
-                <script src="js/pie-chart-1.js"></script>
-                <div id="piechart-1"></div>           
-            </section>
-            <aside>
-                    <h3 style="color: black; font-weight: bold; padding-top: 20px;">
-                            OVERSEAS STUDENTS BREAKDOWN
+                    </h3>
+                    <script src="js/material.js"></script>
+                    <script src="js/pie-chart-1.js"></script>
+                    <div id="piechart-1"></div>
+                </div>
+                <div class="col">
+                    <h3 style="color: black; font-weight: bold; padding-top: 4vh;padding-bottom: 4vh;">
+                        OVERSEAS STUDENTS BREAKDOWN
                     </h3>
                     <script src="js/dataviz.js"></script>
                     <script src="js/pie-chart-2.js"></script>
-                    <div id="piechart-2"></div>           
-            </aside>
+                    <div id="piechart-2"></div>
+                </div>
+            </div>
         </div>
-
     </div>
 
-    <!--<script src="js/jquery.min.js"></script>-->
-    <!--<script src="js/bootstrap.min.js"></script>-->
     <script src="js/main.js"></script>
-    <!--<script src="js/smooth-scroll.js"></script>-->
-    
+
 </body>
 
 </html>
