@@ -7,7 +7,6 @@
         $(this).children(".playpause").fadeIn();
     }
 });
-
   
 ; (function () {
 
