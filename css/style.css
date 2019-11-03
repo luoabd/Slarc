@@ -623,11 +623,13 @@
    stroke-dasharray: 650;
    stroke-dashoffset: 650;
    -webkit-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
    opacity: 0.3;
  }
 
  .triangle {
    -webkit-transition: all 0.7s ease-in-out;
+   transition: all 0.7s ease-in-out;
    stroke-dasharray: 240;
    stroke-dashoffset: 480;
    stroke: #000;
@@ -1622,3 +1624,55 @@ textarea.input100 {
   transform: translateY(50%);
   right: 5px;
 }
+
+/* Lightshot for portfolio  */
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1040;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+

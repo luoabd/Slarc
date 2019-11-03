@@ -103,50 +103,70 @@
                     <div class="portfolioContainer">
 
                         <div class="gallary building nature green">
-                            <img src="images/portfolio/001.jpg" alt="">
+                            <img src="images/portfolio/001.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" alt="">
 
                         </div>
                         <div class="gallary center-img classroom">
-                            <img src="images/portfolio/002.jpg" class="half-height" alt="">
+                            <img src="images/portfolio/002.jpg" onclick="openModal();currentSlide(2)" class="half-height hover-shadow cursor" alt="">
                         </div>
 
                         <div class="gallary building">
 
-                            <img src="images/portfolio/003.jpg" alt="">
+                            <img src="images/portfolio/003.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow cursor" alt="">
                         </div>
                         <div class="gallary center-img landscape nature">
-                            <img src="images/portfolio/004.jpg" class="half-height" alt="">
+                            <img src="images/portfolio/004.jpg" onclick="openModal();currentSlide(4)" class="half-height hover-shadow cursor" alt="">
                         </div>
                         <div class="gallary">
-                            <img src="images/portfolio/005.jpg" alt="">
+                            <img src="images/portfolio/005.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow cursor" alt="">
                         </div>
 
                         <div class="gallary center-img landscape">
-                            <img src="images/portfolio/006.jpg" alt="">
+                            <img src="images/portfolio/006.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow cursor" alt="">
                         </div>
 
                         <div class="gallary building nature">
-                            <img src="images/portfolio/007.jpg" alt="">
+                            <img src="images/portfolio/007.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow cursor" alt="">
                         </div>
 
                     </div>
                 </div>
+            </div>
 
-                <!-- <div class="row portfolioFilter">
-                    <ul class="indicators">
-                        <li><a href="#" data-filter=".landscape" class="active"></a>
-                        </li>
-                        <li><a href="#" data-filter=".green"></a>
-                        </li>
-                        <li><a href="#" data-filter=".building"></a>
-                        </li>
-                        <li><a href="#" data-filter=".classroom"></a>
-                        </li>
-                        <li><a href="#" data-filter=".nature"></a>
-                        </li>
-                    </ul>
-                </div>-->
-            </div> 
+            <div id="myModal" class="modal">
+                <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+
+                  <div class="mySlides">
+                    <img src="images/portfolio/001.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <img src="images/portfolio/002.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <img src="images/portfolio/003.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <img src="images/portfolio/004.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <img src="images/portfolio/005.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <img src="images/portfolio/006.jpg" style="width:100%">
+                  </div>
+
+                  <div class="mySlides">
+                    <img src="images/portfolio/007.jpg" style="width:100%">
+                  </div>
+
+                </div>
+              </div>
 
         </div>
         <footer id="myFooter">
