@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=uCGLej4zHehbKq0jkmefiUd8eB1gt8sH"></script>
+
+    <title>Slarc</title>
+</head>
+
+<body>
+    <div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
+        <nav class="navbar fixed-top navbar-expand-xl">
+            <div class="container">
+                <a class="navbar-brand mobile-logo" href="#"><img src="images/logo.png" alt="Vista Pro" /></a>
+                <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse">
+                    <span class="bar1"></span> <span class="bar2"></span>
+                    <span class="bar3"></span>
+                </button>
+
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <div>
+                        <p class="text-left follow">Follow Us:</p>
+                        <ul class="navbar-nav float-left social-links">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-weibo"></i></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-weixin"></i></a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-qq"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="navbar-nav mx-auto logo-desktop">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><img src="images/logo.png" alt="Sichuan University" /></a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav float-right menu-links" style="margin-right: auto;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./statistics.html">Statistics</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./gallery.html">Videos</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="./contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#news">News</a>
+                                  </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="banner-image">
+        <div class="banner-text">
+            <h1 style="font-size:6vw">Contact Us</h1>
+        </div>
+    </div>
+    <!-- Container element -->
+
+	<div class="container-contact100">
+        <!-- Baidu map -->
+		<div class="contact100-map" id="allmap"></div>
+
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					Contact Us
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Name</span>
+					<input class="input100" type="text" name="name" placeholder="Name...">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input100">Email</span>
+					<input class="input100" type="text" name="email" placeholder="Email addess...">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100">
+					<span class="label-input100">Phone</span>
+					<input class="input100" type="text" name="phone" placeholder="Phone Number...">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<span class="label-input100">Message</span>
+					<textarea class="input100" name="message" placeholder="Questions/Comments..."></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							Send
+						</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 footer-info">
+                    <div>
+                        <i class="fa fa-map-marker"></i>
+                        <p><span>Shuanlgiu Street</span> Chengdu, China</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <p>173 xxxx xxxx</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <p><a href="mailto:support@company.com">support@company.com</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Video Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">School Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <div class="social-networks">
+                        <a href="#" class="twitter"><i class="fa fa-qq"></i></a>
+                        <a href="#" class="facebook"><i class="fa fa-weixin"></i></a>
+                        <a href="#" class="google"><i class="fa fa-weibo"></i></a>
+                    </div>
+                    <button type="button" class="btn btn-default"><a href="#">Contact us</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2019 Sichuan University </p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        // 百度地图API功能
+        var map = new BMap.Map("allmap");    // 创建Map实例
+        map.centerAndZoom(new BMap.Point(104.090633,30.637031), 17);  // 初始化地图,设置中心点坐标和地图级别
+        //添加地图类型控件
+        map.addControl(new BMap.MapTypeControl({
+            mapTypes:[
+                BMAP_NORMAL_MAP,
+                BMAP_HYBRID_MAP
+            ]}));	  
+        map.setCurrentCity("成都");          // 设置地图显示的城市 此项是必须设置的
+        map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    </script>
+    
+</body>
+
+<footer>
+
+</footer>
+
+</html>
