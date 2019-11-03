@@ -1,204 +1,404 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-   
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/w3.css">
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
 
-    <title>Slarc-News</title>
-
+  <title>Slarc</title>
 </head>
 
-<body>
-    <div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
-        <nav class="navbar fixed-top navbar-expand-xl">
-            <div class="container">
-                <a class="navbar-brand mobile-logo" href="#"><img src="images/logo.png" alt="Vista Pro" /></a>
-                <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse">
-                    <span class="bar1"></span> <span class="bar2"></span> <span class="bar3"></span> </button>
-
-                <div id="my-nav" class="collapse navbar-collapse">
-
-                    <div>
-                        <p class="text-left follow">Follow Us:</p>
-                        <ul class="navbar-nav float-left social-links">
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+        <div id="fh5co-hero-carousel" class="carousel slide header" data-ride="carousel">
+                <nav class="navbar fixed-top navbar-expand-xl">
+                    <div class="container">
+                      <a class="navbar-brand mobile-logo" href="#"><img src="images/logo.png" alt="Vista Pro" /></a>
+                      <button class="navbar-toggler" data-target="#my-nav" onclick="myFunction(this)" data-toggle="collapse">
+                        <span class="bar1"></span> <span class="bar2"></span>
+                        <span class="bar3"></span>
+                      </button>
+              
+                      <div id="my-nav" class="collapse navbar-collapse">
+                        <div>
+                          <p class="text-left follow">Follow Us:</p>
+                          <ul class="navbar-nav float-left social-links">
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.facebook.com/fh5co"><i
-                                        class="fab fa-facebook-f"></i></a>
+                              <a class="nav-link" href="#"><i class="fa fa-weibo"></i></a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-weixin"></i></a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="https://twitter.com/fh5co"><i
-                                        class="fab fa-twitter"></i></a>
+                            <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-qq"></i></a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-google-plus-g"></i></a>
-                            </li>
-
+                          </ul>
+                        </div>
+              
+                        <ul class="navbar-nav mx-auto logo-desktop">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="#"><img src="images/logo.png" alt="Sichuan University" /></a>
+                          </li>
                         </ul>
+              
+                        <ul class="navbar-nav float-right menu-links" style="margin-right: auto;">
+                          <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./AboutUs.html">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./statistics.html">Statistics</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./gallery.html">Videos</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" href="./news.html">News</a>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-
-                    <ul class="navbar-nav mx-auto logo-desktop">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Logo</a>
-                        </li>
-                    </ul>
-
-                    <ul class="navbar-nav float-right menu-links">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="AboutUs.html">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="statistics.html">Statistics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#news">News</a>
-                        </li>
-
-                    </ul>
-                </div>
+                  </nav>
+              
             </div>
-        </nav>
-    </div>
-
-    <div class="banner-image">
-        <div class="banner-text">
-            <h1 style="font-size:6vw">News</h1>
-        </div>
-    </div>
-
-    <div>
-        <div class="parallax-header">SCU Today</div>
-        <h1 class="parallax-subtitle">The latest news from Sichuan University</h1>
-        <div>
-            <div class="container" style="width: 90%;">
-                <div class="row" style="padding-bottom: 3vh;">
-                    <div class="col-sm-6">
-                        <div class="card bg-dark text-white news-card" style="width: 98%; margin: auto; height: 100%;">
-                            <div id=grad1 class="card-img-top">
-                                <div class="card-img-overlay">
-                                    <h6 style="color: white; font-weight: bold;">
-                                        SCIENCE & TECHNOLOGY
-                                    </h6>
-                                    <h5 class="card-title">
-                                        <a href="gallery.html" style="color: white;">
-                                            The 2019 5th Chengdu International Forum on
-                                            Precision Medicine successfully held in Chengdu
-                                        </a>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
-                            <img src="./images/News/Dr. Feng.jpg" class="card-img-top" style="height: 60%;">
-                            <div class="card-body">
-                                <h6 style="color: brown; font-weight: bold;">
-                                    SCIENCE & TECHNOLOGY
-                                </h6>
-                                <h5 class="card-title">
-                                    <a href="gallery.html" style="color: black;">
-                                        Dr. Feng Helps Philippine General Hospital on TAVI Case
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
-                            <img src="./images/News/First-Ever Urologic Laparoscopic Surgery.png" class="card-img-top"
-                                style="height: 60%;">
-                            <div class="card-body">
-                                <h6 style="color: brown; font-weight: bold;">
-                                    SCIENCE & TECHNOLOGY
-                                </h6>
-                                <h5 class="card-title">
-                                    <a href="gallery.html" style="color: black;">
-                                        China's Medical Team Completed First-Ever Urologic
-                                        Laparoscopic Surgery in Mozambique
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
+            <div class="banner-image">
+                <div class="banner-text">
+                  <h1 style="font-size:6vw">News</h1>
                 </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
-                            <img src="./images/News/Chinese Classical Show for International Students.png"
-                                class="card-img-top" style="height: 60%;">
-                            <div class="card-body">
-                                <h6 style="color: brown; font-weight: bold;">
-                                    HUMANITIES
-                                </h6>
-                                <h5 class="card-title">
-                                    <a href="gallery.html" style="color: black;">
-                                        The 2019 Chinese Classical Show for
-                                        International Students Staged in SCU
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card news-card" style="width: 98%; margin: auto; min-height: 300px;">
-                            <img src="./images/News/Ranked 53.png" class="card-img-top" style="height: 60%;">
-                            <div class="card-body">
-                                <h6 style="color: brown; font-weight: bold;">
-                                    HUMANITIES
-                                </h6>
-                                <h5 class="card-title">
-                                    <a href="gallery.html" style="color: black;">
-                                        SCU Ranked 53rd among Global Universities in the Latest Nature Index
-                                    </a>
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="card bg-dark text-white news-card" style="width: 98%; margin: auto; height: 100%;">
-                            <div id=grad2 class="card-img-top">
-                                <div class="card-img-overlay">
-                                    <h6 style="color: white; font-weight: bold;">
-                                        SCIENCE & TECHNOLOGY
-                                    </h6>
-                                    <h5 class="card-title">
-                                        <a href="gallery.html" style="color: white;">
-                                            China's Medical Team Completed First-Ever Urologic
-                                            Laparoscopic Surgery in Mozambique
-                                        </a>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a href="#" class="btn btn-primary panel-button">More SCU News</a>
+              </div>
+              <!-- Container element -->
+
+  <div class="container news-nav">
+    <div class="row">
+      <nav class="col-sm-3 col-4" id="myScrollspy">
+        <ul class="nav nav-pills flex-column" style="width: 17vw;">
+          <li class="nav-item ">
+            <a class="nav-link active" href="#section1">The 2019 5th Chengdu International Forum on
+              Precision Medicine successfully held in Chengdu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section2">Dr. Feng Helps Philippine General Hospital on TAVI Case</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section3">China's Medical Team Completed First-Ever Urologic
+              Laparoscopic Surgery in Mozambique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section4">The 2019 Chinese Classical Show for
+              International Students Staged in SCU</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section5">SCU Ranked 53rd among Global Universities in the Latest Nature
+              Index</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section6">West China School/Hospital of Stomatology SCU Topped the Nature Index in Dentistry</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div id="news" class="col-sm-9 col-8" style="left:20px">
+        <div id="section1">
+          <h1>The 2019 5th Chengdu International Forum on
+            Precision Medicine successfully held in Chengdu</h1>
+          <p>
+            <img src="/images/News/Forum on Precision Medicine.jpg">
+            From Sept. 20th to 21st, the 5th Chengdu International Forum on Precision Medicine, sponsored by the
+            People’s Government of Chengdu Municipality and SCU, organized by the West China Hospital of Sichuan
+            University, Chengdu Market Supervision Bureau and West China Medicine Technology Transfer Center, was held
+            in Jinjiang Hotel, Chengdu. Yang Xingping, Vice Governor of Sichuan Provincial People’s Government, Liu
+            Quansheng, Deputy Secretary-General of Sichuan Provincial People’s Government, Yang Xin, Vice President of
+            Sichuan Provincial Development and Reform Commission, Zhang Lin, Vice President of SCU, Liu Xia, Deputy
+            Secretary-General of Chengdu Municipal People’s Government, and He Xin, Director of Chengdu Market
+            Supervision and Administration Bureau, etc, attended the meeting. Many famous academicians, scholars and
+            industry elites in the field of precision medicine at home and abroad also gathered on this occasion.
+
+            Li Weimin, President of the West China Hospital, Sichuan University, warmly welcomed the guests from all
+            walks of the society. Precision medicine, as he stressed, is an important innovative strategic resource of
+            China and a well-positioned playing ground for the future healthy development of medical care in the world.
+            As the most active frontier area of the massive health industry, it's geared to implement the national
+            strategies, improve the health level and livelihood of people, promote the cross-disciplinary integration,
+            and cultivate new economic growth points. West China Hospital attempts to, fully relying on its high-quality
+            medical resources and strong sci-tech strength, make active steps to promote the application of precision
+            medicine and the clinical research as a pioneer and backup force in the innovative development of China’s
+            precision medicine sector.
+
+            Yang Xingping, Vice Governor of Sichuan Provincial People’s Government, Zhang Lin, Vice President of SCU and
+            Liu Xia, Deputy Secretary-General of Chengdu Municipal People’s Government, delivered a speech,
+            respectively. They warmly congratulated the successful holding of the 5th Chengdu International Forum on
+            Precision Medicine, noting that West China Hospital of Sichuan University, as the advocator, pioneer and
+            leader of the precision medicine in China, has been working hard to boost the clinical research and
+            application of precision medicine in China. Some of its national, provincial and ministerial-level platforms
+            and laboratories in the field of precision medicine have already been approved. This forum will inject fresh
+            ideas and inspirations into the development of precision medicine and medical health industry in Sichuan and
+            even across China, and will vigorously promote the cross-industry integration and development in the field
+            of precision medicine.
+            <img src="/images/News/Forum on Precision Medicine2.jpg">
+            The participants shared and exchanged their academic viewpoints in the forum, which fully showcased the
+            latest development, sci-tech achievements and future challenges in the precision medicine sector at home and
+            abroad, helping to facilitate collaborative innovation among medical and health institutions, colleges,
+            research institutes and enterprises. The forum strived to advance basic and strategic research,
+            technological innovation, product development, preparation of standards and norms, and construction of
+            technological platform and service system in the field of precision medicine, and drive the precision
+            medicine industry to move forward on international scale, contributing to enhancing the sci-tech innovation
+            and competitiveness of the precision medicine industry in China.
+          </p>
         </div>
+
+        <div id="section2">
+          <h1>Dr. Feng Helps Philippine General Hospital on TAVI Case</h1>
+          <p>
+            <img src="/images/News/Dr. Feng.jpg">
+            Dr. Feng Yuan, from West China Hospital, Sichuan University, was invited by Dr. Dee Wilfred From Philippine
+            General Hospital in Manila, Philippine to collaborate on a challenging transcatheter aortic valve
+            implantation (TAVI) procedure on September 25, 2019.
+
+            The Philippine General Hospital (PGH) is a tertiary state-owned hospital administered and operated by the
+            University of the Philippines. It is designated as the National University Hospital, and the largest
+            government facility and referral center. It has 1,500 beds, and has an estimated of 4,000 employees to serve
+            more than 600,000 patients annually. PGH has 19 clinical departments which, with their attached units, offer
+            the best facilities for the delivery of comprehensive care for Filipinos seeking specialty and subspecialty
+            care. The PGH, being the heart of the University's Health Sciences Campus, is the largest training hospital
+            in the country.
+
+            The patient was an 80-year-old male, referred to PGH for severe symptomatic aortic stenosis. Owing to his
+            advanced age and poor renal function, surgical aortic valve replacement, an open-heart procedure performed
+            under cardiopulmonary bypass, was deemed unsuitable after multidisciplinary team discussion. TAVI was
+            considered the best treatment option. However, TAVI in this patient was also associated with significant
+            technical challenges. It is well accepted that comprehensive imaging workup is of critical importance for
+            pre-planning and intra-procedural guidance of TAVI. In this patient, however, CT images are of low quality
+            because only limited contrast dose could be used during scan to avoid deterioration of renal function,
+            making it rather difficult to assess aortic root anatomies. Fortunately, having an experience with more than
+            600 TAVI cases, Dr. Feng Yuan was able to evaluate the feasibility and specific risk of TAVI by using
+            multimodality imaging. The patient had a tricuspid aortic valve with moderate calcification, both of which
+            were favorable characteristics for TAVI. However, Sinuses of Valsava were narrow and the position of
+            coronaries were low, as shown by Echocardiography and angiography, indicating high risk for the dreadful
+            complication of coronary obstruction. After careful assessment and discussion with Dr. Dee Wirfred’s team,
+            Dr. Feng Yuan suggested to proceed with TAVI using a 23-mm Venus A-Valve.
+
+            By selecting a small-size prosthetic valve and employing special implant techniques, Dr. Feng Yuan
+            successfully helped the team to avoid coronary obstruction and other complications. Final angiogram showed
+            that bilateral coronary arteries were patent and not affected, and the prosthetic valve was in an optimal
+            position with only trivial periprosthetic valve leak. On postprocedural discussion, Dr. Dee Wilfred
+            expressed his willingness of inviting Dr. Feng Yuan to continuously support the TAVI program at PGH in the
+            future.
+          </p>
+        </div>
+        <div id="section3">
+          <h1>China's Medical Team Completed First-Ever Urologic
+            Laparoscopic Surgery in Mozambique</h1>
+          <p>
+            <img src="/images/News/First-Ever Urologic Laparoscopic Surgery.png">
+            Recently, Associate Professor Jin Tao of the Urology Department and Associate Professor Chen Kelin of the
+            Liver Surgery Department from West China Hospital, two members of the 22nd batch of China's medical team to
+            Mozambique, completed successfully the first-ever urologic laparoscopic surgery in Mozambique.
+
+            The patient was a young man from Inhambane, 480 kilometers from Maputo, Mozambique. A right kidney mass was
+            found in a local hospital more than 10 years ago, but was not duly treated. More than one year ago, the mass
+            gradually enlarged, and developed swelling pain at the right lumbar; then he was transferred to Maputo
+            Central Hospital for diagnosis and treatment. CT showed a right renal cyst (12x375px), but could not exclude
+            the possibility of tumors.
+
+            Due to the lack of urolaparoscopia operational technology in Mozambique, the doctors with the Maputo Central
+            Hospital recommended open surgery, which, however, features large operative wound, high risk and slow
+            recovery. After reading the CT films carefully, Jin Tao, head of the medical team, suggested that
+            laparoscopic minimally invasive surgery should be adopted to ensure smaller operative wound, quicker
+            recovery and good effect. Meanwhile, the team prepared the operation scheme for possible tumor at the right
+            kidney, which could not eliminate the possibility of converting to open surgery or even excision of the
+            right kidney.
+
+            Given that this was the first-ever urologic laparoscopic surgery in Mozambique, the hospital, its urinary
+            surgery department and operating rooms attached great importance to it. Director Emilia of the Anesthesia
+            Department and Chief Physician Qin Sulan of the medical team took charge of anesthesia; urology expert
+            Amancio held the laparoscope, Associate Professor Chen Kelin assisted the operation, and Duan Yong of the
+            medical team served as the interpreter. All surgeons of the Urology Department, experts from Cuba, head
+            nurses, and heads of general surgery and publicity department of the hospital went to observe the operation.
+
+            Despite of the lack of special operating table, narrow, blurred view of the laparoscope, and unsatisfactory
+            pneumoperitoneal pressure, Associate Professor Jin Tao and Associate Professor Chen Kelin conducted the
+            operation with an ultrasound knife donated by WCH, while explaining in detail the process of the operation
+            from endoscopic perforation, exposure of view of the posterior peritoneum to related anatomical procedures.
+            It took less than 30 minutes to successfully complete the right renal cyst resection.
+
+            This was the first time for Maputo Hospital of Mozambique to introduce the advanced diagnosis and treatment
+            mode of ambulatory surgery, for which the outpatient clinic completed relevant preoperative examinations so
+            that the patient immediately accepted operation upon admission; in contrast, patients who needed to be
+            hospitalized for half a month could be discharged on the first day after operation, thus greatly shortening
+            the time of hospitalization and saving medical resources.
+
+            Since there existed doubts about the operation due to lack of experience in the urologic laparoscopic
+            surgery, Jintao, head of the medical team, gave a special lecture on “Skills in urologic laparoscopic
+            surgery” and the concept of ambulatory surgery, thus greatly enhancing the confidence of local doctors and
+            ensuring the smooth progress of the operation.
+
+            The first-ever urologic laparoscopic surgery in Mozambique was completed with the concerted efforts of all
+            medical team members. At the same time, the advanced concept of ambulatory surgery was promoted amongst
+            local medical workers. The medical team was widely praised by leaders, doctors and patients of the Maputo
+            Central Hospital.
+          </p>
+        </div>
+        <div id="section4">
+          <h1>The 2019 Chinese Classical Show for
+            International Students Staged in SCU</h1>
+          <p>
+            <img src="/images/News/Chinese Classical Show for International Students.png">
+            Themed with reading ancient and modern classics, promoting the Chinese civilization, telling the Chinese
+            stories and exhibiting the charm of Sichuan, the 2019 Chinese Classic Show for the International Students
+            was held at SCU recently.
+
+            International students from over ten colleges and universities in Sichuan put on dozens of exciting
+            programs.
+
+            SCU Vice President Yan Shijing addressed this event, noting that the Chinese culture has a long history of
+            splendid glory, and the Chinese classics are the spiritual treasure of the Chinese nation and the mankind.
+            With the implementation of the BRI, more and more international students study in China. By the end of 2018,
+            3,851 international students from 103 countries had been enrolled in SCU. Many international graduates of
+            SCU have made their own efforts in the integration of the Chinese civilization and world civilization as
+            cultural messengers for the exchanges between China and the rest of the world, he stressed, expressing his
+            hope that this event could provide an access to the international students in gaining more knowledge of the
+            Chinese culture.
+
+            In recent years, students from more than 100 countries come to study in Sichuan, making it an important
+            destination for studying in western China. As international students acting as a bridge for promoting
+            cultural exchanges between China and foreign countries, this event will set up a new platform for promoting
+            Sichuan culture worldwide, and injecting a new vitality and impetus into the education of international
+            students.
+
+            The joyful song mix “We are together” kicked off the competition, which attracted international students
+            from Ghana, Thailand, Malaysia and other countries to express their love for China and Sichuan via their own
+            rhythmic national songs and dances.
+
+            Zhu Ziqing’s essay “Hurry”, recited by students from Pakistan, Nigeria, and Nepal, expressed their cherished
+            enthusiasm for studying in China.
+
+            An ode “Maritime Silk Road”, chanted by three Malaysian students, signaled the support of the ASEAN
+            countries’ students to the Belt and Road Initiative.
+
+            “I love China and the Chinese culture. The ancient Chinese poems always give me strong strength, and guides
+            me to meet challenges bravely,” said an Iranian student from SCU who used a sensational “Short Song Ballad”
+            to express his love for Chinese traditional culture.
+
+            These students also performed classic works reflecting the modern Chinese people’s unremitting struggle for
+            the rise and revival of the nation.
+
+            The event was successfully concluded in the musical poem “I Love You, China” performed by a few SCU
+            teachers.
+          </p>
+        </div>
+        <div id="section5">
+          <h1>SCU Ranked 53rd among Global Universities in the Latest Nature
+              Index</h1>
+          <p>
+            Recently, the Natural Index web¬site published the annual ranking of the 2019 Nature Index (spanning from
+            2018.1.1 to 2018.12.31). SCU ranked 53rd among global universities, a significant progress over the 81st
+            last year.
+            <img src="/images/News/Ranked 53.png">
+            The Nature Index has become an important indicator for evaluating the outputs of high-level academic
+            achievements of research institutions. It calculates statistically the quantity of research papers published
+            by scientific research institutions in the previ¬ous year, including 82 series (68 selected in 2014 and 82
+            in June 2018), such as Nature series, Science, and Cell in natural science journals. 82 sources of journals
+            are divided into four categories: Chemistry, Earth and Environmental Sciences, Life Sciences and Physics.
+            SCU has predominant strength in Chemistry and ranks 14th among the world¬wide universities.
+
+
+          </p>
+        </div>
+        <div id="section6">
+          <h1>West China School/Hospital of Stomatology SCU Topped the Nature Index in Dentistry</h1>
+          <p>
+            Nature Index published the 2019 tables recently which are based on Nature Index data from 1 January 2018 to
+            31 December 2018. Output for West School/Hospital of Stomatology SCU counts 9 in Healthcare Sector and ranks
+            the first in dentistry in China.
+            <img src="/images/News/SCU Topped the Nature Index in Dentistry.png">
+            West China School of Stomatology is known as the cradle of modern dentistry in China, which was originated
+            from the School of Dentistry, West China Union University. This school is the first education base where
+            elite dental professionals in the fields of clinical care and intensive research have been well trained.
+            State Key Laboratory of Oral Diseases is a national laboratory in specialty of dental science which becomes
+            the most important base to develop the discipline of stomatology into the top line in the world. The
+            discipline of stomatology has won A+ in China Discipline Assessment Ranking, ranking first in China Science
+            and Technology Evaluation Metrics from the year 2014.
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
 
-   
 
-    <script src="js/main.js"></script>
+  <footer id="myFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 footer-info">
+          <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Shuanlgiu Street</span> Chengdu, China</p>
+          </div>
 
+          <div>
+            <i class="fa fa-phone"></i>
+            <p>173 xxxx xxxx</p>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:support@company.com">support@company.com</a></p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <h5>Get started</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Video Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>About us</h5>
+          <ul>
+            <li><a href="#">School Information</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-2">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help desk</a></li>
+            <li><a href="#">Forums</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-qq"></i></a>
+            <a href="#" class="facebook"><i class="fa fa-weixin"></i></a>
+            <a href="#" class="google"><i class="fa fa-weibo"></i></a>
+          </div>
+          <button type="button" class="btn btn-default"><a href="#">Contact us</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>© 2019 Sichuan University </p>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
+
+<footer>
+
+</footer>
 
 </html>
